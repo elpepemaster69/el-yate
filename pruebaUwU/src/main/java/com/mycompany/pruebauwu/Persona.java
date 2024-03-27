@@ -13,6 +13,12 @@ public class Persona {
     private String apellido;
     private int edad;
     
+public Persona(String nombre, String apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    
+}
+        
     public String saludar(){
         return "Hola soy "+ nombre +" "+ apellido +" y tengo "+ edad +"";
     } 
